@@ -76,19 +76,19 @@ Afin de faciliter sa navigation, la police du site est standard le logo est asse
 
  - Vue d'ensemble
 
-![Capture d'écran de la vue d'ensemble](Vue-d-ensemble.png "Vue d'ensemble")
+![Capture d'écran de la vue d'ensemble](maquettes/Vue-d-ensemble.png "Vue d'ensemble")
 
  - En-tête
 
-![Capture d'écran de l'en-tête](En-tete.png "En-tête")
+![Capture d'écran de l'en-tête](maquettes/En-tete.png "En-tête")
 
  - Corps
 
-![Capture d'écran du corps](Corps.png "Corps")
+![Capture d'écran du corps](maquettes/Corps.png "Corps")
 
  - Pied de page
 
-![Capture d'écran du pied de page](Pied-de-page.png "Pied de page")
+![Capture d'écran du pied de page](maquettes/Pied-de-page.png "Pied de page")
 
 ## VII/ Conclusion
 

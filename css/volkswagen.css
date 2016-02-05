@@ -1,0 +1,25 @@
+﻿div.volkswagen{
+	border-top: 5px solid DarkBlue !important;
+}
+div.volkswagen span.title{
+	background-color: DarkBlue !important;
+}
+div.volkswagen h1{
+	color: DarkBlue;
+}
+div.volkswagen h2{
+	color: MediumBlue;
+}
+div.volkswagen h3{
+	color: Blue;
+}
+div.volkswagen h4{
+	color: RoyalBlue;
+}
+.volkswagen input[type=button]{
+	background-color:DarkBlue;
+}
+.volkswagen input[type=button]:hover,.volkswagen input[type=button]:active,.volkswagen input[type=button]:focus{
+	background-color:MediumBlue;
+}
+

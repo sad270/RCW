@@ -1,0 +1,24 @@
+﻿.renault input[type=button]{
+	background-color:DarkGoldenrod;
+}
+.renault input[type=button]:hover,.renault input[type=button]:active,.renault input[type=button]:focus{
+	background-color:Goldenrod;
+}
+div.renault{
+	border-top: 5px solid DarkGoldenrod !important;
+}
+div.renault span.title{
+	background-color: DarkGoldenrod !important;
+}
+div.renault h1{
+	color: DarkGoldenrod;
+}
+div.renault h2{
+	color: Goldenrod;
+}
+div.renault h3{
+	color: Tan;
+}
+div.renault h4{
+	color: BurlyWood;
+}

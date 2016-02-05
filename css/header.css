@@ -1,0 +1,78 @@
+﻿
+/******** EN-TÊTE ********/
+
+#header{
+	padding: 0;
+}
+
+a#logo{
+	margin: 0 15%;
+}
+
+div#menu {
+	margin-top: 0.5em;
+	border-top: 1px solid Gainsboro;
+	border-bottom: 2px ridge Gainsboro;
+}
+
+ul#menu_left {
+	margin: 0 0 0 15% ;
+	padding:0;
+	height: 2.2em;
+	border-left: 1px solid Gainsboro;
+	border-collapse: collapse;
+	list-style: none;
+	float : left;
+}
+
+ul#menu_left li {
+	padding: 0.5em;
+	margin: 0;
+	height: 1.2em;
+	font-style: normal;
+	border-right: 1px solid Gainsboro;
+	float : left;
+}
+
+#menu a#active {
+	color:black;
+	text-decoration:none;
+}
+
+#menu a {
+	color:DimGray;
+	text-decoration:none;
+}
+
+#menu a:hover {
+	color:black;
+	text-decoration:underline;
+}
+
+#menu a:active {
+	color:DimGray;
+	text-decoration:none;
+}
+
+div#menu_right {
+	margin: 0 15%  0 0;
+	padding:0;
+	height: 2.2em;
+	border-right: 1px solid Gainsboro;
+	border-collapse: collapse;
+	float : right;
+}
+
+img#cart_img{
+	height: 2.2em;
+	float : right;
+	border-left: 1px solid Gainsboro;
+	padding: 0 0 0 0.5em;
+}
+
+div.cart {
+	padding: 0.5em;
+	height: 1.2em;
+	font-style: normal;
+	float : right;
+}

@@ -1,0 +1,250 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+	<head>
+		<title>RCW | Les spécialiste de la C4, Megane et Golf - Projet WEB Cnam -</title>
+		<meta name="description" content=" Vente de voitures neuves, avec la qualité au rendez-vous - Projet WEB Cnam -"/>
+		<meta name="keywords" content="RCW, Renault, citroen, volkswagen, megane, c4, golf, golf 7, voiture, comparatif, essai"/>
+		<meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+		<meta http-equiv="Content-Language" content="fr"/>
+		<meta name="robots" content="all"/>
+		<meta name="Copyright" content="&copy; 2013 - RCW"/>
+		<meta name="author" content="EYILI Sadetdin"/>
+		<meta name="reply-to" content ="contact@rcw.com"/>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<link rel="stylesheet" type="text/css" href="css/form.css"/>
+		<link rel="stylesheet" type="text/css" href="css/volkswagen.css"/>
+		<link rel="stylesheet" type="text/css" href="css/citroen.css"/>
+		<link rel="stylesheet" type="text/css" href="css/renault.css"/>
+		<script type="text/javascript" src="js/quty.js"></script>
+		<script type="text/javascript" src="js/cookie.js"></script>
+	</head>
+
+	<body>
+
+
+		<!-- ******** EN-TÊTE ******** -->
+
+		<div id="header">
+
+			<a id="logo" title="Accueil" href="index.html"><img class="header" src="img/logo.png" alt="Logo RCW"/></a>
+
+			<div id="menu">
+
+				<ul id="menu_left">
+					<li><a title="Accueil" href="index.html" id="active">Accueil</a></li>
+					<li><a title="Qui sommes nous ?" href="about_us.html">Qui sommes nous ?</a></li>
+					<li><a title="Contactez-nous" href="contact.html">Contact</a></li>
+				</ul>
+
+				<div id="menu_right">
+					<div class="cart">
+						<a title="Voir le panier" href="cart.html">
+							<span id="productNum"></span> Produit(s) <span id="price"></span>
+						</a>
+					</div>
+					<a title="Voir le panier" href="cart.html"><img class="cart" id="cart_img" src="img/cart.png" alt="Panier" /></a>
+				</div>
+
+				<br class="stopFloat"/>
+			</div>
+
+		</div>
+
+
+		<!-- ******** CORPS ******** -->
+
+		<div id="body">
+
+
+			<!-- ******** LIGNE 1 ******** -->
+
+			<div class="ligne">
+
+
+				<!-- ******** PARTIE GAUCHE ******** -->
+
+				<div class="aside volkswagen">
+
+					<h1><span class="title">Volkswagen</span></h1>
+
+					<img class="aside" src="img/volkswagen/golf7_presentation.jpg" title="VOLKSWAGEN GOLF 7 1.4 TSI 140 CH" alt="Photo de présentation de la Golf 7" />
+
+					<p>Volkswagen Golf 7 1.4 TSI 140 CH</p>
+					<h4>29 910 </h4>
+
+					<div class="quantity">
+						<label for="quantity_golf">Quantité :</label>
+						<input type="button" value="X" title="Reset" onclick="delQuty('quantity_golf');"/>
+						<input type="button" value="-" onclick="rmQuty('quantity_golf');"/>
+						<input type="text" name="quantity_golf" id="quantity_golf" class="quantity" value="0"/>
+						<input type="button" value="+" onclick="addQuty('quantity_golf');"/>
+						<input type="button" title="Ajouter au panier" value="Ajouter" onclick="addProduct('quantity_golf');" />
+					</div>
+					<p id="result_quantity_golf"></p>
+
+					<p><a href="cart.html" title="Passer à l'achat"> Passer à l'achat</a></p>
+
+				</div>
+
+
+				<!-- ******** PARTIE DROITE ******** -->
+
+				<div class="section volkswagen">
+
+					<h2>GOLF 7 1.4 TSI 140 CH</h2>
+
+					<p>Basée sur la plateforme MQB, la nouvelle Golf affiche quelques changements... mais pas au niveau du design ! Deux ans avant de fêter son quarantième anniversaire, la Volkswagen Golf 7 semble plus dynamique. Un sentiment confirmé par ses nouvelles mensurations : une longueur augmentée de 6 cm (4,26 m), un empattement plus long de 6 cm aussi (2,64 m). Grâce à cette petite croissance, la Golf 7 serait plus habitable que son aïeule.Le coffre aussi gagne du volume avec une capacité de 380 litres contre 350 pour la sixième génération. Toujours à l'intérieur, la Golf semble avoir été particulièrement soignée en matière de finition. Si la présentation reste rigoureusement allemande, le nouveau volant, la console centrale avec grand écran tactile et les matériaux utilisés donnent l'impression d'un habitacle de très bonne qualité. Basée sur la nouvelle plateforme MQB du groupe VAG, la Golf 7 affiche un poids sur la balance équivalent à celui de la quatrième génération. Toujours selon le constructeur allemand, la compacte sallégerait de 100 kg sur certaines versions. Question motorisation, la Golf 7 adopte des blocs essence TSI de 85 ch et 140 ch, version avec coupure des cylindres vue sur la dernière Polo BlueGT. Des TDI 1.6 de 105 et 150 ch seront également de la partie tout comme des versions électrique, hybride rechargeable et GTI (concept présenté à Paris) qui suivront dans les prochains mois. Les prix vont de 17.790  pour l'entrée de gamme essence 3 portes à 31.920  pour la 2.0 TDI 4Motion Carat 5 portes.</p>
+
+					<a href="http://www.turbo.fr/volkswagen/volkswagen-golf-7/#ixzz2K56cmv72" class="source" title="Actus et Tests auto sur Turbo.fr : VOLKSWAGEN GOLF 7 - Turbo.fr">source</a>
+
+					<a href="golf7.html" title="Pour plus de détails" >Voir l'essai</a>
+
+				</div>
+
+				<br class="stopFloat"/>
+			</div>
+
+
+			<!-- ******** LIGNE 2 ******** -->
+
+			<div class="ligne">
+
+
+				<!-- ******** PARTIE GAUCHE ******** -->
+
+				<div class="aside renault">
+
+					<h1><span class="title">Renault</span></h1>
+
+					<img class="aside" src="img/renault/megane3_presentation.jpg" title="RENAULT MÉGANE 3 1.2 TCE 115 CH" alt="Photo de présentation de la Mégane 3"/>
+
+					<p>Renault Mégane 3 1.2 TCE 115 CH</p>
+					<h4>29 900 </h4>
+
+					<div class="quantity">
+						<label for="quantity_megane">Quantité :</label>
+						<input type="button" value="X" title="Reset" onclick="delQuty('quantity_megane');"/>
+						<input  type="button" value="-" onclick="rmQuty('quantity_megane');"/>
+						<input type="text" name="quantity_megane" id="quantity_megane" class="quantity" value="0"/>
+						<input type="button" value="+" onclick="addQuty('quantity_megane');"/>
+						<input type="button" title="Ajouter au panier" value="Ajouter" onclick="addProduct('quantity_megane');"/>
+					</div>
+					<p id="result_quantity_megane"></p>
+
+					<p><a href="cart.html" title="Passer à l'achat"> Passer à l'achat</a></p>
+
+				</div>
+
+
+				<!-- ******** PARTIE DROITE ******** -->
+
+				<div class="section renault">
+
+					<h2>MÉGANE 3 1.2 TCE 115 CH</h2>
+
+					<p>Très attendue, la 3ème génération de Mégane ne doit pas décevoir. L'avenir de Renault en dépend. Faut-il y trouver là la raison de son look plus consensuel ? Exit les formes anguleuses, la Mégane 3 est toute en rondeurs comme pour rassurer l'automobiliste. Plus longue de 8,6 cm que sa devancière, elle présente un poste de conduite à l'agrément supérieur et une foultitude de motorisations pour son lancement, dont l'inédit 1.4 TCe de 130ch.</p>
+
+					<a href="http://www.turbo.fr/renault/renault-megane-3/#ixzz2K592W3KZ" class="source" title="Actus et Tests auto sur Turbo.fr : RENAULT MEGANE 3 - Turbo.fr ">source</a>
+
+					<a href="megane3.html" title="Pour plus de détails" >Voir l'essai</a>
+
+				</div>
+
+				<br class=" stopFloat"/>
+			</div>
+
+
+			<!-- ******** LIGNE 3 ******** -->
+
+			<div class="ligne">
+
+
+				<!-- ******** PARTIE GAUCHE ******** -->
+
+				<div class="aside citroen">
+
+					<h1><span class="title">Citroën</span></h1>
+
+					<img class="aside" src="img/citroen/c4_presentation.jpg" title="CITROËN C4 2.0 HDI 150 CH" alt="Photo de présentation de la C4 II"/>
+
+					<p>Citroën C4 2.0 HDI 150 CH</p>
+					<h4>30 200 </h4>
+
+					<div class="quantity">
+						<label for="quantity_c4">Quantité :</label>
+						<input type="button" value="X" title="Reset" onclick="delQuty('quantity_c4');"/>
+						<input type="button" value="-" onclick="rmQuty('quantity_c4');"/>
+						<input type="text" name="quantity_c4" id="quantity_c4" class="quantity" value="0"/>
+						<input type="button" value="+" onclick="addQuty('quantity_c4');"/>
+						<input type="button" title="Ajouter au panier" value="Ajouter" onclick="addProduct('quantity_c4');" />
+					</div>
+					<p id="result_quantity_c4"></p>
+
+					<p><a href="cart.html" title="Passer à l'achat"> Passer à l'achat</a></p>
+
+				</div>
+
+
+				<!-- ******** PARTIE DROITE ******** -->
+
+				<div class="section citroen">
+
+					<h2>C4 2.0 HDI 150 CH</h2>
+
+					<p>La nouvelle Citroën C4 atteint aujourd'hui l'âge de raison et se pare d'une sobriété et d'une rigueur toute germanique. Citroën insiste aussi sur le fait qu'en gagnant en gabarit (4,33 m de long, 1,79 m de large et 1,49 m de haut), la nouvelle C4 s'offre le coffre le plus grand de toute la catégorie avec 408 litres, soit pas moins de 82 litres supplémentaires par rapport à la mouture actuelle. En entrée de gamme, on trouvera un 1.4 L VTi de 95 chevaux combiné à une boite manuelle à 5 rapports (140 g/km), puis un 1.6 L VTi de 120 chevaux offert au choix avec une boite mécanique 5 rapports ou une automatique à 4 rapports (à partir de 6,2 l/100km pour des émissions allant de 143 à 162 g/km) et enfin un 1.6 L THP 155 chevaux combiné à une boite semi-automatique à 6 rapports (6,3 l/100 km et 145 g/km). Notons que le VTi 120 sera également offert en version GPL. Du côté des Diesel, la gamme comportera également 3 offres. Les acheteurs auront en effet le choix entre deux déclinaisons du bloc 1.6 L HDI, l'une en 90 chevaux (4,2 l/100 km et 110 g/km) et l'autre en 110 chevaux (119 g/km), et un 2.0 L HDI de 150 chevaux (4,9 l/100 km et 127 g/km).</p>
+
+					<a href="http://www.turbo.fr/citroen/citroen-c4-2010/#ixzz2K58Z4nqK" class="source" title="Actus et Tests auto sur Turbo.fr : CITROEN C4 (2010) - Turbo.fr ">source</a>
+
+					<a href="c4.html" title="Pour plus de détails" >Voir l'essai</a>
+
+				</div>
+
+				<br class=" stopFloat"/>
+			</div>
+
+		</div>
+
+
+		<!-- ******** PIEDS DE PAGE ******** -->
+
+		<div id="footer">
+			<div id="footer_box">
+
+				<div id="footer_left">
+					<p><span id="copyright">&copy; 2013 RCW</span></p>
+				</div>
+
+				<div id="footer_right">
+					<p>
+						<a href="#logo" title="Retour au haut de page"> Haut de page</a> |
+						<a title="Contactez-nous" href="contact.html">Contact</a> |
+						<a href="index.html" title="Retour à l'Accueil" >Accueil</a>
+					</p>
+				</div>
+
+				<div id="footer_center">
+					<p id="validators">
+						<a href="http://validator.w3.org/check?uri=referer">
+							<img src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0 Strict" height="31" width="88" />
+						</a>
+						<a href="http://jigsaw.w3.org/css-validator/check/referer">
+							<img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss" alt="CSS Valide !" />
+						</a>
+					</p>
+				</div>
+
+			</div>
+		</div>
+
+
+		<!-- ******** SCRIPT ******** -->
+
+		<script type="text/javascript">
+			showTotalPrice('price');
+			showProductNum("productNum");
+			setProductValue('quantity_golf');
+			setProductValue('quantity_megane');
+			setProductValue('quantity_c4');
+		</script>
+	</body>
+</html>

@@ -1,0 +1,138 @@
+@import url("header.css");
+@import url("footer.css");
+/******** Style generale ********/
+
+p{
+	margin:0;
+	padding: 0 0 0.5em 0;
+}
+
+ul{
+	margin:0;
+}
+
+img{
+	border:0;
+}
+
+a{
+	font-weight:bold;
+	text-decoration:underline;
+	color:black;
+}
+
+a:hover{
+	text-decoration:none;
+	color:DimGray;
+}
+
+a:active{
+	text-decoration:underline;
+}
+
+h1{
+	color: DimGray;
+}
+
+h2{
+	color: SlateGray;
+}
+
+h3{
+	color: LightSlateGray;
+}
+
+h4{
+	color: DarkGray;
+	margin:0.5em;
+}
+
+table{
+	border-collapse: collapse;
+}
+
+body{
+	background-color: white; 
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+div#body{
+	background: url(img/motif.png);
+	padding: 1em 15%;
+
+}
+
+div.ligne{
+	padding:0.4em 0;
+}
+
+div.aside{
+	padding: 0.8em;
+	background-color: white;
+	box-shadow:0px 0px 10px #404040;
+	border-top: 5px solid DimGray;
+	width:28%;
+	float:left;
+}
+
+div.section{
+	padding: 0.8em;
+	background-color: white;
+	box-shadow:0px 0px 10px #404040;
+	border-top: 5px solid DimGray;
+	float:right;
+	width:65%;
+}
+
+div.aside img{
+	width:100%;
+}
+
+span.title{
+	box-shadow:3px 2px 3px #404040;
+	color: white;
+	padding: 0.1em 0.4em 0.1em 1.5em;
+	position:relative;
+	left:-0.6em;
+	background-color: DimGray;
+}
+
+span.label{
+	font-weight:bold;
+}
+
+a.source{
+	font-size:0.7em;
+	float:right;
+	position:relative;
+	top:-0.5em;
+}
+
+img.img_right{
+	float:right;
+	margin:0.5em;
+	text-align:center;
+	box-shadow:0px 0px 10px #404040;
+}
+
+img.img_left{
+	float:left;
+	margin:0.5em;
+	text-align:center;
+	box-shadow:0px 0px 10px #404040;
+}
+
+.aside ul{
+	font-size:0.8em;
+}
+
+span.note{
+	float: right;
+	font-size:0.8em;
+}
+
+.stopFloat {
+	clear: both;
+	visibility: hidden;
+}

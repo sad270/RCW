@@ -1,0 +1,33 @@
+﻿
+/******** PIEDS DE PAGE ********/
+
+#footer{
+	font-weight:bold;
+	font-size:0.8em;
+	border-top: 2px ridge Gainsboro;
+	border-bottom: 1px solid Gainsboro;
+}
+
+#footer_box{
+	padding:0.5em;
+	border-left: 1px solid Gainsboro;
+	border-right: 1px solid Gainsboro;
+	margin: 0 15%;
+}
+
+#footer_left{
+	float:left;
+	padding-top:0.5em;
+}
+
+#footer_right{
+	float:right;
+	padding-top:0.5em;
+}
+
+#validators{
+	text-align:center;
+	width:190px;
+	padding:0;
+	margin:auto;
+}

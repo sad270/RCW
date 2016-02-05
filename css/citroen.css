@@ -1,0 +1,24 @@
+﻿div.citroen{
+	border-top: 5px solid darkred !important;
+}
+div.citroen span.title{
+	background-color: Darkred !important;
+}
+div.citroen h1{
+	color: Darkred;
+}
+div.citroen h2{
+	color: FireBrick;
+}
+div.citroen h3{
+	color: Red;
+}
+div.citroen h4{
+	color: Crimson;
+}
+.citroen input[type=button]{
+	background-color:DarkRed;
+}
+.citroen input[type=button]:hover,.citroen input[type=button]:active,.citroen input[type=button]:focus{
+	background-color:FireBrick;
+}

@@ -1,0 +1,92 @@
+﻿
+/******** FORMULAIRE ********/
+
+label{
+	font-weight:bold;
+	font-size:0.9em;
+	vertical-align: bottom;
+}
+
+input.quantity{
+	width:1.5em;
+	vertical-align:bottom;
+}
+
+input[type="button"],
+input[type="submit"]{
+	box-shadow:0px 0px 4px #404040;
+	cursor:pointer;
+	border:0;
+	color: #FFFFFF;
+	padding: 0.2em 0.5em;
+	margin:0.2em 0;
+	font-weight:bold;
+}
+
+input[type=button]:active, input[type=button]:focus,
+input[type=submit]:active, input[type=submit]:focus{
+	position:relative;
+	top:1px;
+	box-shadow:0px 0px 0px #404040;
+}
+
+input[type=button], input[type=submit]{
+	background-color:Dimgray;
+}
+
+input[type=button]:hover, input[type=button]:active,input[type=button]:focus,
+input[type=submit]:hover, input[type=submit]:active,input[type=submit]:focus{
+	background-color:Slategray;
+}
+
+p.error{
+	color:red;
+} 
+
+form ul{
+	list-style: none;
+	padding:0;
+	margin:0;
+}
+
+form ul li textarea{
+	width:100%;
+}
+
+form ul li input[type="text"]{
+	width:50%;
+	margin-left:5%;
+}
+
+fieldset{
+	background-color: whiteSmoke;
+}
+
+legend{
+	font-size:1.5em;
+}
+
+#formPrice{
+font-size:1.4em;
+}
+
+li.payment{ 
+	font-weight:bold;
+	font-size:0.9em;
+}
+
+label.payment{
+	font-weight:normal;
+}
+
+table#cart{
+	width:100%;
+}
+
+div#tooltip{
+	display:none;
+	margin: 0.5em;
+	padding: 0.3em;
+	overflow:hidden;
+	background-color: #CCC;
+}

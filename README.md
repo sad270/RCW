@@ -4,9 +4,10 @@ CONSERVATOIRE NATIONAL DES ARTS ET METIERS AQUITAINE
 
 Réalisation d’une mini application de vente en ligne.
 
-Unité d’Enseignement : NFA016 Développement web - Architecture du web et développement côté client
-
-Année 2012 - 2013
+ - **Unité d’Enseignement :** NFA016 Développement web - Architecture du web et développement côté client
+ - **Année :** 2012 - 2013
+ - **Auteur :** Sadetdin EYILI
+ - **Demo :** https://sad270.github.io/RCW
 
 ## I/ Description du projet
 
@@ -35,26 +36,38 @@ Le référencement d’un site est très important, car il permet aux internaute
   - **Titre** : RCW | Les spécialiste de la C4, Megane et Golf - Projet WEB Cnam -
   - **Description** : Vente de voitures neuves, avec la qualité au rendez-vous - Projet WEB Cnam -
   - **Mots-clés** : RCW, Renault, citroen, volkswagen, megane, c4, golf, golf 7, voiture, comparatif, essai
+
+
 - **contact.html**
   - **Titre** : Contactez-nous - RCW | Les spécialiste de la C4, Megane et Golf - Projet WEB Cnam -
   - **Description** : Une question ? Un renseignement ? N’hésitez pas à nous contacter ! | RCW - Vente de voitures neuves, avec la qualité au rendez-vous - Projet WEB Cnam -
   - **Mots-clés** : RCW, contact, adresse, mail, telephone, Renault, citroen, volkswagen, megane, c4, golf, golf 7, voiture, comparatif, essai
+
+
 - **golf7.html**
   - **Titre** : Volkswagen Golf 7 - RCW | Les spécialiste de la C4, Megane et Golf - Projet WEB Cnam -
   - **Description** : Basée sur la plateforme MQB, la nouvelle Golf affiche quelques changements... mais pas au niveau du design ! Deux ans avant de fêter son quarantième anniversaire, la Volkswagen Golf 7 semble plus dynamique. - Projet WEB Cnam -
   - **Mots-clés** : RCW, volkswagen, golf, golf 7, voiture, comparatif, essai, prix, pas chere
+
+
 - **megane3.html**
   - **Titre** : Renault Mégane - RCW | Les spécialiste de la C4, Megane et Golf - Projet WEB Cnam -
   - **Description** : Très attendue, la 3ème génération de Mégane ne doit pas décevoir. L'avenir de Renault en dépend. Faut-il y trouver là la raison de son look plus consensuel ? - Projet WEB Cnam -
   - **Mots-clés** : RCW, renault, megane, megane 3, voiture, comparatif, essai, prix, pas chere
+
+
 - **c4.html**
   - **Titre** : Citroën C4 - RCW | Les spécialiste de la C4, Megane et Golf - Projet WEB Cnam -
   - **Description** : La nouvelle Citroën C4 atteint aujourd'hui l'âge de raison et se pare d'une sobriété et d'une rigueur toute germanique. Citroën insiste aussi sur le fait qu'en gagnant en gabarit (4,33 m de long, 1,79 m de large et 1,49 m de haut). - Projet WEB Cnam –
   - **Mots-clés** : RCW, citroen, c4, c4 II, voiture, comparatif, essai, prix, pas chere
+
+
 - **about_us.html**
   - **Titre** : Qui sommes-nous ? - RCW | Les spécialiste de la C4, Megane et Golf - Projet WEB Cnam -
   - **Description** : RCW Fondé en 2013 par EYILI Sadetdin est une société anonyme, son siège est à Bordeaux - Projet WEB Cnam -
   - **Mots-clés** : RCW, Renault, citroen, volkswagen, megane, c4, golf, golf 7, voiture, comparatif, essai, presentation rcw
+
+
 - **cart.html**
   - **Titre** : Panier - RCW | Les spécialiste de la C4, Megane et Golf - Projet WEB Cnam -
   - **Description** : Passer à l'achat ! | RCW - Vente de voitures neuves, avec la qualité au rendez-vous - Projet WEB Cnam -
